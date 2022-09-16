@@ -1,0 +1,656 @@
+body {
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+.title {
+    font-size: 32px;
+}
+
+.tel-menu {
+    display: none;
+}
+
+.container {
+    width: 1110px;
+    margin: 0 auto;
+}
+
+.header {
+    background: #F1F7E2 no-repeat center top;
+    padding-top: 30px;
+    padding-bottom: 180px;
+}
+
+.logo {
+    font-weight: 700;
+    font-size: 25px;
+}
+
+header a {
+    color: #000;
+    padding-top: 40px;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li a {
+    text-decoration: none;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.menu li a:hover {
+    font-weight: 600;
+    color: #0D606F;
+}
+
+.menu li {
+    display: block;
+    margin-right: 50px;
+}
+
+.menu-open {
+    display: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.offer-wrapper {
+    margin-top: 165px;
+}
+
+.avatar {
+    width: 560px;
+    height: 370px;
+    background: url(249482360_602791400874770_3038570465103934760_n.jpg);
+    filter: drop-shadow(8px 10px 12px rgba(0, 0, 0, 0.25));
+}
+
+.offer {
+    margin-top: 45px;
+}
+
+.intro {
+    width: 380px;
+    margin: 40px 0px;
+    line-height: 155%;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #000000;
+    border-radius: 12px;
+    width: 240px;
+    font-weight: 500;
+    padding: 20px 0;
+    text-decoration: none;
+}
+
+.btn:hover {
+    font-weight: 600;
+}
+
+.summary {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.summary-title-text {
+    font-weight: 500;
+}
+
+.summary-title {
+    width: 380px; 
+    line-height: 155%;
+}
+
+.getting-experience {
+    width: 600px;
+    height: 399px;
+    background: #99F0A22E;
+    padding: 45px 45px;
+    border-radius: 18px;
+}
+
+.wrapper-summary {
+    margin-top: 70px;
+}
+
+.experience-title {
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.experience-text li {
+    margin-bottom: 30px;
+    line-height: 155%;
+    font-weight: 400;
+    margin-left: 13px;
+}
+
+.favorites {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.favorites-things {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.icon-things {
+    width: 85px;
+}
+
+.thing-title {
+    text-align: center;
+}
+
+.skills {
+    margin-top: 100px;
+}
+
+.my-skills {
+    text-align: right;
+}
+
+.wrapper-hard-skill {
+    margin-top: 10px;
+}
+
+.hard-skill {
+    display: flex;
+    margin-bottom: 11px;
+}
+
+.hard-skill-icon {
+    width: 60px;
+}
+
+.figma {
+    width: 50px;
+}
+
+.hard-skill-title {
+    padding-top: 20px;
+    padding-left: 15px;
+}
+
+.skill {
+    background: #99F0A22E;
+    width: 540px;
+    height: 350px;
+    border-radius: 18px;
+    padding: 45px 45px;
+}
+
+.skills-title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.wrapper-skills {
+    margin-top: 70px;
+}
+
+.list-skill li {
+    margin-bottom: 20px;
+    margin-left: 13px;
+    margin-right: 55px;
+    font-weight: 400;
+}
+
+.list-of-skills {
+    display: flex;
+    justify-content: space-between;
+}
+
+.education {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.education-languages {
+    text-align: right;
+    margin-bottom: 70px;
+}
+
+.wrapper-education {
+    display: flex;
+    justify-content: space-between;
+}
+
+.languages {
+    padding-top: 45px;
+    background: #99F0A22E;
+    width: 445px;
+    height: 300px;
+    border-radius: 55px;
+}
+
+.language {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.list-of-languages li{
+    display: block;
+    margin-bottom: 17px;
+    text-decoration: none;
+    margin-left: 45px;
+    font-weight: 500;
+}
+
+.inai {
+    width: 60px;
+    margin-right: 40px;
+}
+
+.universitet {
+    width: 350px;
+    display: flex;
+}
+
+.department {
+    color: #ACACAC;
+    font-size: 14px;
+}
+
+.graduation {
+    display: flex;
+    margin-top: 20px;
+}
+
+.graduation-icon {
+    width: 60px;
+    margin-right: 40px;
+}
+
+.education-institute {
+    margin-top: 24px;
+    padding: 53px 53px;
+    border: 1px solid #000;
+    border-radius: 55px;
+    width: 590px;
+    height: 250px;
+}
+
+.footer {
+    background: #F9F9F9;
+    height: 400px;
+    padding-top: 70px;
+}
+
+.wrapper-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cv {
+    margin-top: 50px;
+    width: auto;
+    height: 150px;
+}
+
+.contact-icon {
+    width: 40px;
+    height: 40px;
+}
+
+.contact {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.contact-title {
+    padding-top: 10px;
+    padding-left: 15px;
+}
+
+.github-icon {
+    width: 40px;
+    height: 40px;
+}
+
+.github-block {
+    display: flex;
+}
+
+.github-title {
+    padding-top: 10px;
+    padding-left: 15px;
+}
+
+.github-title:hover {
+    font-weight: 500;
+}
+
+.year {
+    font-weight: 500;
+    text-align: right;
+}
+
+.center {
+    margin: 0 5px;
+}
+
+.project-title {
+    text-align: left;
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+
+.project-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.store {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    height: 100%;
+    width: 100%;
+}
+
+
+
+@media screen and (max-width: 1200px) {
+    .container {
+        width: 1120px;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    
+    .container {
+        width: 940px;
+    }
+
+    .avatar {
+        width: 52%;
+        height: auto;
+    }
+    
+    .getting-experience {
+        width: 52%;
+    }
+
+    .skill {
+        width: 48%;
+    }
+
+    .education-institute {
+        width: 50%;
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+    
+    .container {
+        width: 720px;
+    }
+
+    .menu {
+        display: none;
+    }
+    
+    .avatar {
+        width: auto;
+        height: 250px;
+    }
+
+    .offer {
+        margin-left: 25px;
+        margin-top: 0;
+    }
+
+    .intro {
+        width: 100%;
+        margin: 15px 0;
+    }
+
+    .btn {
+        width: 50%;
+        height: 20%;
+    }
+    
+    .getting-experience {
+        width: 42%;
+    }
+
+    .skill {
+        width: 40%;
+    }
+
+    .education-institute {
+        width: 50%;
+    }
+
+    .wrapper-summary {
+        flex-wrap: wrap;
+    }
+
+    .summary-title, .getting-experience {
+        width: 100%;
+    }
+
+    .summary-title {
+        margin-bottom: 40px;
+    }
+
+    .getting-experience {
+        height: 50%;
+    }
+
+    .wrapper-skills {
+        flex-wrap: wrap;
+    }
+
+    .skill {
+        width: 100%;
+    }
+
+    .projects-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .hard-skills {
+        margin-bottom: 40px;
+    }
+    .center {
+        margin: 10px 0;
+    }
+
+    .second-column {
+        margin-right: 100px;
+    }
+
+    .wrapper-education {
+        flex-wrap: wrap;
+    }
+
+    .languages {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .education-institute {
+        width: 100%;
+    }
+
+    .education-languages, .code-example, .my-skills, .about {
+        text-align: center;
+    }
+    
+    .code {
+        text-align: left;
+    }
+
+    .tel-menu {
+        display: block;
+    }
+
+    .menu-open {
+        display: block;
+    }
+
+    .show-menu {
+        display: block; 
+        background: rgba(0, 0, 0, .4); 
+        width: 50%; 
+        height:100%; 
+        position: absolute;
+        left: 0; 
+        top: 0; 
+        padding: 80px 20px 20px 25px;
+        z-index: 1;
+    }
+
+    .show-menu li{
+        padding-bottom: 20px;
+        color: #fff;
+    }
+
+    .show-menu a {
+        color: #fff;
+        width: 20px;
+        height: 10px;
+        padding: 0 0;
+    }
+
+    .second-column {
+        margin-right: 20px;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+    
+    .container {
+        width: 540px;
+    }
+
+    .cv {
+        display: none;
+    }
+
+    .avatar {
+        display: none;
+    }
+
+    .icon-things {
+        height: 40px;
+        width: auto;
+    }
+
+    .thing-title {
+        font-size: 12px;
+    }
+
+    .hard-skill-icon {
+        height: 40px;
+        width: auto;
+    }
+
+    .hard-skill-title {
+        font-size: 12px;
+        padding-top: 15px;
+    }
+
+    .code  {
+        padding-left: 20px;
+    }
+
+    .education-title {
+        font-size: 18px;
+    }
+
+    .department {
+        font-size: 12px;
+    }
+
+    .graduation-year {
+        font-size: 18px;
+    }
+
+    .education-institute {
+        padding-left: 35px;
+    }
+
+    .hard-skills {
+        margin-bottom: 20px;
+    }
+
+}
+
+@media screen and (max-width: 575px) {
+
+    .container {
+        width: 100%;
+        padding: 0 15px;
+    }
+
+    .education-title {
+        font-size: 16px;
+        width: 220px;
+    }
+
+    .department {
+        font-size: 10px;
+    }
+
+    .education-institute {
+        padding-left: 20px;
+    }
+
+    .graduation-year {
+        font-size: 16px;
+    }
+
+    .skill {
+        padding-left: 30px;
+    }
+
+    .hard-skill {
+        padding-left: 20px;
+    }
+
+}
+
